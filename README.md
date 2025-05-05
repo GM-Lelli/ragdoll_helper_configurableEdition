@@ -2,8 +2,8 @@
 
 > ⚠️ This repository is part of a development project focused on integrating SMPL humanoid models with physically simulated agents. The full project, including training systems and simulation environments, will be.
 
-Unity repository for the automatic generation of a humanoid ragdoll using `ConfigurableJoint`, designed as an advanced alternative to the [ragdoll_helper](https://github.com/StasClick/ragdoll_helper?tab=License-1-ov-file) project.  
-The project is structured into several classes, each responsible for specific aspects of the ragdoll's behavior. This documentation focuses on the classes that allow users to configure joints and calculate weight distribution for the humanoid ragdoll.
+Unity repository for the automatic generation of a humanoid ragdoll based on `ConfigurableJoint`, designed as an alternative to the [ragdoll\_helper](https://github.com/StasClick/ragdoll_helper?tab=License-1-ov-file) project. The project is organized into several classes, each handling a specific aspect of the ragdoll's physical behavior. This documentation focuses on the classes that allow joint configuration and weight distribution calculation. The ultimate goal is to integrate the SMPL model with a Unity ragdoll to simulate the physical behavior of a mannequin capable of representing different anthropometric percentiles.
+
 
 <p align="center">
   <img src="img/integrazioneRagdollSmpl.png" alt="SMPL Model Integration" width="600"/>
